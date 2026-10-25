@@ -1,0 +1,361 @@
+{
+  "status": "Q3_SYNTHETIC_PASS_DOCUMENTARY_AND_STATIC_CODE_REVIEW",
+  "verified_utc": "2026-10-23T05:00:04.358821+00:00",
+  "archive": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\R5_Q3_CLAUDE_RESULTADOS.zip",
+  "archive_bytes": 11812,
+  "archive_sha256": "be60eb97a8b1223464608f29a3f3165e3ecfafed956b7b264a6889e037e9f415",
+  "CRC": "PASS_ALL_SIX_FILES",
+  "safe_paths_and_no_duplicates": "PASS",
+  "manifest_payload_files": 5,
+  "manifest_files": {
+    "q3_out/R5_Q3_RESULT.json": "46c5f1e1fbdd00c04269ddd1d2ce8313c5e1bb9d1699a50c1b9cce60b47dd348",
+    "q3_out/R5_Q3_r5_independent_validation.json": "61f21e42c6e63813b1de1977199ad551a7fea5a23b5cfbda769c10802446c573",
+    "q3_out/R5_Q3_r5_screen.json": "6ed359d88d176fdf07f747665c947ba7bf59ff379ae28e07bcef183dc257f27a",
+    "q3_out/q3.log": "a96611d64c65944d18473fd29d0b65d5abd47c94d269367974b339fb0067bef3",
+    "q3_out/r5_q3_calibration.py": "409fd75bfa1e46a6d09d1ed501497b8c61541e1dead35bc8d36959357e29b77b"
+  },
+  "extracted_new_folder": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\q3_claude_integrity_verified_20261023",
+  "cloud_result_Q3": "PASS",
+  "admitted_Q3": "PASS_SYNTHETIC_FIXED_WINDOW_CALIBRATION",
+  "N_realized": 2122,
+  "window_days": 1024,
+  "daily_mean": 2.072265625,
+  "cloud_reported_started_utc": "2026-10-23T04:43:31.253988+00:00",
+  "local_preregistration_utc": "2026-10-23T04:42:42.374510+00:00",
+  "preregistration_commit": "83ab54f82470a225b791278737fd67718b10b34a",
+  "count_source_sha256": "16a4057ff3c38a14629c1c00e667f7f532752ebd035cd2859160920e8228635b",
+  "cloud_script_sha256": "409fd75bfa1e46a6d09d1ed501497b8c61541e1dead35bc8d36959357e29b77b",
+  "base_interval_script_sha256": "2fcdfef322cb2bfe824411faf76722cd59a5d5282940b0d9e6d1d76ba64a1c08",
+  "interval_estimator_normalized_AST_identical": true,
+  "interval_AST_normalizations": [
+    "docstrings and local import location",
+    "unused undefined diagnostic list accumulation removed",
+    "BOOT_SEED resolved to literal20261020",
+    "additional returned already-computed point excluded from comparison"
+  ],
+  "normalized_AST_sha256": "589c2c92b40378fb6030d885745571a162d0e2c6fdd90af852ccd0a8c6e35327",
+  "static_section4_review": {
+    "eight_scenarios_each_phase": true,
+    "fresh_scenario_seeds_by_phase_labels": true,
+    "fixed_T1024_no_event_stopping_no_12month_censoring": true,
+    "mean_daily_rate_N_over_T": true,
+    "same_rate_and_two_cell_synthetic_laws": true,
+    "Cox7day_logsigma_point6_centered": true,
+    "trials1000_each": true,
+    "draws1999_then9999": true,
+    "blocks7_and14": true,
+    "IG_threshold_strict_point05_both_lower_CI_strict_point05": true,
+    "coverage_gate_point_estimate_point93": true,
+    "power_Wilson_lower_point80": true,
+    "boundary_false_success_Wilson_upper_point07": true,
+    "no_selection_of_N_block_or_scenario": true
+  },
+  "phase_summaries": {
+    "r5_screen": {
+      "minimum_coverage": 0.941,
+      "minimum_power_Wilson95_lower": 0.9943574414020421,
+      "maximum_false_success_Wilson95_upper": 0.04017018319759311,
+      "undefined_CI": 0,
+      "scenario_count": 8,
+      "PASS": true
+    },
+    "r5_independent_validation": {
+      "minimum_coverage": 0.933,
+      "minimum_power_Wilson95_lower": 0.9927371921365079,
+      "maximum_false_success_Wilson95_upper": 0.03546290561161149,
+      "undefined_CI": 0,
+      "scenario_count": 8,
+      "PASS": true
+    }
+  },
+  "scenario_summary_rows": [
+    {
+      "phase": "r5_screen",
+      "label": "rate_only|independent|0.05|r5_screen",
+      "seed": "7120553915957513871",
+      "trials": 1000,
+      "draws": 1999,
+      "IG_true": 0.05,
+      "coverage7": 0.947,
+      "coverage14": 0.945,
+      "successes": 28,
+      "wilson95": [
+        0.01944227681277093,
+        0.04017018319759311
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_screen",
+      "label": "rate_only|independent|0.10|r5_screen",
+      "seed": "13557586973094178309",
+      "trials": 1000,
+      "draws": 1999,
+      "IG_true": 0.1,
+      "coverage7": 0.95,
+      "coverage14": 0.948,
+      "successes": 1000,
+      "wilson95": [
+        0.996173241514445,
+        1.0
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_screen",
+      "label": "rate_only|seven_day_cox|0.05|r5_screen",
+      "seed": "18030818769589779818",
+      "trials": 1000,
+      "draws": 1999,
+      "IG_true": 0.05,
+      "coverage7": 0.953,
+      "coverage14": 0.953,
+      "successes": 26,
+      "wilson95": [
+        0.01780393820161633,
+        0.03782382884268992
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_screen",
+      "label": "rate_only|seven_day_cox|0.10|r5_screen",
+      "seed": "3281761274168711475",
+      "trials": 1000,
+      "draws": 1999,
+      "IG_true": 0.1,
+      "coverage7": 0.95,
+      "coverage14": 0.953,
+      "successes": 1000,
+      "wilson95": [
+        0.996173241514445,
+        1.0
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_screen",
+      "label": "two_cell_space|independent|0.05|r5_screen",
+      "seed": "15882277889262335849",
+      "trials": 1000,
+      "draws": 1999,
+      "IG_true": 0.05,
+      "coverage7": 0.945,
+      "coverage14": 0.943,
+      "successes": 25,
+      "wilson95": [
+        0.01699013129343407,
+        0.0366452892678433
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_screen",
+      "label": "two_cell_space|independent|0.10|r5_screen",
+      "seed": "15962825320908386838",
+      "trials": 1000,
+      "draws": 1999,
+      "IG_true": 0.1,
+      "coverage7": 0.943,
+      "coverage14": 0.941,
+      "successes": 1000,
+      "wilson95": [
+        0.996173241514445,
+        1.0
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_screen",
+      "label": "two_cell_space|seven_day_cox|0.05|r5_screen",
+      "seed": "10518518333702114217",
+      "trials": 1000,
+      "draws": 1999,
+      "IG_true": 0.05,
+      "coverage7": 0.965,
+      "coverage14": 0.959,
+      "successes": 17,
+      "wilson95": [
+        0.01064068985681633,
+        0.027055958840229925
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_screen",
+      "label": "two_cell_space|seven_day_cox|0.10|r5_screen",
+      "seed": "14122228539155560016",
+      "trials": 1000,
+      "draws": 1999,
+      "IG_true": 0.1,
+      "coverage7": 0.95,
+      "coverage14": 0.954,
+      "successes": 999,
+      "wilson95": [
+        0.9943574414020421,
+        0.9998234536293739
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_independent_validation",
+      "label": "rate_only|independent|0.05|r5_independent_validation",
+      "seed": "10318859765245204055",
+      "trials": 1000,
+      "draws": 9999,
+      "IG_true": 0.05,
+      "coverage7": 0.952,
+      "coverage14": 0.951,
+      "successes": 21,
+      "wilson95": [
+        0.013775739567924288,
+        0.03189029506123752
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_independent_validation",
+      "label": "rate_only|independent|0.10|r5_independent_validation",
+      "seed": "17238850999403985341",
+      "trials": 1000,
+      "draws": 9999,
+      "IG_true": 0.1,
+      "coverage7": 0.944,
+      "coverage14": 0.942,
+      "successes": 1000,
+      "wilson95": [
+        0.996173241514445,
+        1.0
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_independent_validation",
+      "label": "rate_only|seven_day_cox|0.05|r5_independent_validation",
+      "seed": "6842483458915994199",
+      "trials": 1000,
+      "draws": 9999,
+      "IG_true": 0.05,
+      "coverage7": 0.954,
+      "coverage14": 0.953,
+      "successes": 21,
+      "wilson95": [
+        0.013775739567924288,
+        0.03189029506123752
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_independent_validation",
+      "label": "rate_only|seven_day_cox|0.10|r5_independent_validation",
+      "seed": "6145496192967967325",
+      "trials": 1000,
+      "draws": 9999,
+      "IG_true": 0.1,
+      "coverage7": 0.959,
+      "coverage14": 0.956,
+      "successes": 1000,
+      "wilson95": [
+        0.996173241514445,
+        1.0
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_independent_validation",
+      "label": "two_cell_space|independent|0.05|r5_independent_validation",
+      "seed": "7908783201665725320",
+      "trials": 1000,
+      "draws": 9999,
+      "IG_true": 0.05,
+      "coverage7": 0.948,
+      "coverage14": 0.951,
+      "successes": 24,
+      "wilson95": [
+        0.016180168466636998,
+        0.03546290561161149
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_independent_validation",
+      "label": "two_cell_space|independent|0.10|r5_independent_validation",
+      "seed": "13804757930794017132",
+      "trials": 1000,
+      "draws": 9999,
+      "IG_true": 0.1,
+      "coverage7": 0.955,
+      "coverage14": 0.954,
+      "successes": 1000,
+      "wilson95": [
+        0.996173241514445,
+        1.0
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_independent_validation",
+      "label": "two_cell_space|seven_day_cox|0.05|r5_independent_validation",
+      "seed": "13916055074044082695",
+      "trials": 1000,
+      "draws": 9999,
+      "IG_true": 0.05,
+      "coverage7": 0.948,
+      "coverage14": 0.95,
+      "successes": 23,
+      "wilson95": [
+        0.015374276932992922,
+        0.03427645066222666
+      ],
+      "undefined": 0,
+      "passes": true
+    },
+    {
+      "phase": "r5_independent_validation",
+      "label": "two_cell_space|seven_day_cox|0.10|r5_independent_validation",
+      "seed": "14900900843785779365",
+      "trials": 1000,
+      "draws": 9999,
+      "IG_true": 0.1,
+      "coverage7": 0.94,
+      "coverage14": 0.933,
+      "successes": 998,
+      "wilson95": [
+        0.9927371921365079,
+        0.9994513564118793
+      ],
+      "undefined": 0,
+      "passes": true
+    }
+  ],
+  "warnings": [
+    "Summary rounding corrected: exact validation power Wilson lower minimum=0.9927371921365079; false-success Wilson upper maximum=0.03546290561161149. Both pass registered0.80/0.07.",
+    "Cloud reports NumPy2.5.3 and Python3.13.16. Section4 does not prescribe a NumPy pin; environment recorded, not treated as a hidden criterion.",
+    "Synthetic fixed-window fixtures only. Not fitted ETAS-X1 power, predictive skill, prospective efficacy, or release of R4 HOLD.",
+    "No raw per-catalog d/n matrices or individual CIs in received bundle; summary/manifest/code reviewed, Monte Carlo results not independently recomputed."
+  ],
+  "numpy_cloud": "2.5.3",
+  "python_cloud": "3.13.16",
+  "received_code_executed": false,
+  "Monte_Carlo_or_bootstrap_recalculated": false,
+  "R4_worker_touched": false,
+  "R4_decision": "HOLD_NO_SEAL_NO_FORECAST",
+  "Q1_Q2_started": false,
+  "Q1_Q2_wait_R4_delivery": true,
+  "seals": 0,
+  "forecasts": 0
+}

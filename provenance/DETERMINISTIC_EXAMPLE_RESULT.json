@@ -1,0 +1,36 @@
+{
+  "status": "PASS_DETERMINISTIC_DUMMY_CASE_ONLY",
+  "values": {
+    "temporal_cdf": [
+      0.0,
+      0.0,
+      0.5,
+      0.6666666666666667,
+      0.9090909090909091
+    ],
+    "radial_cdf": [
+      0.0,
+      0.5,
+      0.8
+    ],
+    "square_gaussian_mass": 0.46606494267439236
+  },
+  "absolute_errors": {
+    "temporal_cdf": 1.1102230246251565e-16,
+    "radial_cdf": 0.0,
+    "square_gaussian_mass": 1.6653345369377348e-16
+  },
+  "versions": {
+    "Python": "3.13.17",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "sources_sha256": {
+    "point_models.py": "daa054845b777dee243c91d144c6c67ffc51295d3b6f4d23dbd1fd38fab2e756",
+    "polygon_integration.py": "7cd769d1860f386e202761c4427b4f47f90de90f16aac29e490550249b6fe778"
+  },
+  "random_samples": 0,
+  "fits": 0,
+  "forecast_or_IG_scoring": 0,
+  "proves_full_study_reproduction": false
+}

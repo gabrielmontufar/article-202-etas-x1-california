@@ -1,0 +1,165 @@
+{
+  "status": "R6_COMPLETE",
+  "utc": "2026-10-25T07:16:38.846901+00:00",
+  "decision": "NEGATIVO NO ROBUSTO",
+  "N": 2122,
+  "days": 1025,
+  "cells": 4296,
+  "IG_nats_per_event": 0.015911026967518508,
+  "intervals": {
+    "7": {
+      "percentile_original_95": [
+        -0.01237286151767404,
+        0.047477685141886924
+      ],
+      "bootstrap_t_95": [
+        -0.011808429767530635,
+        0.05099877915200668
+      ],
+      "resamples": 9999,
+      "seed": 20261020,
+      "days_including_final_fraction": 1025
+    },
+    "14": {
+      "percentile_original_95": [
+        -0.013199073952992761,
+        0.05083710436946345
+      ],
+      "bootstrap_t_95": [
+        -0.014975093502798666,
+        0.05347901404201133
+      ],
+      "resamples": 9999,
+      "seed": 20261020,
+      "days_including_final_fraction": 1025
+    }
+  },
+  "Q3_receipt_sha256": "3fc24ae4ed1b999b4ad8da7854fb90fab4f0c27afe001c4811cf54c2b155da25",
+  "Q3_scope": "Synthetic fixed-window calibration, not adjusted ETAS-X1 power",
+  "Q1_used": "TWO_FIXED_INITIAL_VECTORS_ONLY",
+  "Q1_completion_required_for_Q2": false,
+  "robustness_after_observed_Q2": true,
+  "definition": {
+    "script_sha256": "06e30ee0410470c1912ee00966bdc60f8ae0a4b07d2c957d66f4a55f94166ad5",
+    "source_lock_sha256": "6d0eef9c46a2ccc89ef8455b47af58b8d7f0a6842269f801d0514d26574f7b17",
+    "review_receipt_sha256": "772b6d3c4e15af2bd9dec52c7fd44efb7f9fd5a49cc4494e2caca11708bfa45b",
+    "preregistration_sha256": "666cb2d5b78aa87a34491dd4510d5dc8e944fbdae3ac62b9de0594872dc11f9c",
+    "start_inclusive": "2024-01-01T00:00:00+00:00",
+    "end_exclusive": "2026-10-21T03:21:46.320144+00:00",
+    "generation_method": "R4_MONTE_CARLO_INTRADAY_CASCADES",
+    "trajectories_per_day": 500,
+    "adenda_sha256": "4322e889aa4eea5e38938412cd5fd117075306a9d1fb4a6177158e61db250454",
+    "simulation_semantics": "R4_DISK_ANALYTIC_PLUS_GENERATION_GE1_FROZEN_HISTORY_X1",
+    "zero_mean_rule": "POSITIVE_ANALYTIC_BASE_NO_PSEUDOCOUNT",
+    "z_definition": "FROZEN_PREFIX_TIME_AGING_NO_SIMULATED_EVENTS",
+    "Q1_warm_starts": [
+      {
+        "label": "q1_n_0.99",
+        "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w2_20261023\\w2_original_verified\\r5_q1\\out_v3_W2\\sensitivity_2016_2023\\n\\point_0.99\\POINT_RESULT.json",
+        "sha256": "4f7db3d56784481dd8a106a26139f71b75db370129b14190b9a9e7709ad9decf",
+        "bytes": 4621,
+        "best_x": [
+          -0.7107643180746691,
+          0.99,
+          0.48226658956822155,
+          1.0915135728915752,
+          -5.920913246158963,
+          1.0778628984865832,
+          2.067820921636907,
+          -0.6931471805599453,
+          0.4045781750169556
+        ]
+      },
+      {
+        "label": "q1_d0_0.3",
+        "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w3_original_verified\\r5_q1\\out_v3_W3\\sensitivity_2016_2023\\d0\\point_0.3\\POINT_RESULT.json",
+        "sha256": "16db1c59cb9989460eee19d4291fde94320adeaad5b89cbd20f44158e426af5e",
+        "bytes": 4653,
+        "best_x": [
+          -0.7280733819314348,
+          0.95,
+          0.4911580956591866,
+          1.1036797706231738,
+          -5.855097031305783,
+          1.0809454056041954,
+          1.711929619328556,
+          -1.2039728043259361,
+          0.5171067843541692
+        ]
+      }
+    ],
+    "day_seed": "first8 big-endian SHA256('R6|'+UTC YYYY-MM-DD)",
+    "replicate_seed": "SeedSequence(day_seed).spawn(500); same replicate seeds both models",
+    "Q1_results_used": "TWO_FIXED_INITIAL_VECTORS_ONLY",
+    "R4": "HOLD_NO_SEAL_NO_FORECAST",
+    "analysis": "POST_Q2_ROBUSTNESS_NOT_NEW_UNSEEN_VALIDATION",
+    "fit_carried_from_script_sha256": "f40be85a0a6058338e684ae4bd411e94584f6494cf7f0f3459b413e929502116",
+    "model_parameters": {
+      "ETAS": {
+        "mu": 0.4752842660093794,
+        "n": 0.99,
+        "alpha_ratio": 0.4899631047185385,
+        "b": 1.094801113103585,
+        "c": 0.002767114772632016,
+        "p": 1.0781097797262575,
+        "q": 1.719772268762424,
+        "d0": 0.30863744047653596,
+        "eta": 0.5058253296104832,
+        "gamma": 0,
+        "m0": 2.5
+      },
+      "ETAS_X1": {
+        "mu": 0.4752842660093794,
+        "n": 0.99,
+        "alpha_ratio": 0.4899631047185385,
+        "b": 1.094801113103585,
+        "c": 0.002767114772632016,
+        "p": 1.0781097797262575,
+        "q": 1.719772268762424,
+        "d0": 0.30863744047653596,
+        "eta": 0.5058253296104832,
+        "gamma": 0.06616953421184851,
+        "m0": 2.5
+      }
+    },
+    "R6_fit_hashes": {
+      "ETAS": "12f247c7e86550f0105c8d7a3bd721aa8b2fbd688b63184e915b4fd255f33b3b",
+      "ETAS_X1": "cce13b398e20d172564b2ba35a2672e14ce1a0ecc8f476aaeb24547998ace86e"
+    },
+    "fit_complete_sha256": "55b098a1a03de3cb68a52f508ae10dcc1672a90eb0c183fe594f4bb2c64e8846"
+  },
+  "generation_manifest_sha256": "ab6a989173a2b7d6c35081f572c2441023871865809f33006af7a07c8151bb33",
+  "source_hashes": {
+    "amendment": "4c169541bd2ab654f838da12c45b341f2bd194f66237777470c0ff31dd2a76a8",
+    "order_note": "b910456bf9774a89c96ada8dc2667fd7abcc98af67373ff824676acae7b07f13",
+    "intensity_clarification": "7c6d8e8474740acc4a332f6b8fcb12c8c6a92ce1d9a14817b2f393aea1cacebd",
+    "ns_clarification": "d49ffb2d78893db8ac6d6470829dea28e4dacd1c9cd06900cb253bbb8e2e397f",
+    "q3_receipt": "3fc24ae4ed1b999b4ad8da7854fb90fab4f0c27afe001c4811cf54c2b155da25",
+    "count_receipt": "16a4057ff3c38a14629c1c00e667f7f532752ebd035cd2859160920e8228635b",
+    "count_ids": "c2e7b621f2ecb37a570fb213b2d2d2fe0cf120943c9e635624d235f10cad60ad",
+    "support": "65879ae8cff2fbda298b466ea3d2de6e82a82c291050bf05fc83f917163e9e00",
+    "prepared_receipt": "8267502e54bda283b3f3d16b5e2b4268f3d3fbf191039660580597fa83c41ecd",
+    "prepared_history": "75174d97650f462d4180fdc3dc194f15bc4546d11bb5c329cdc09f44175d9c5e",
+    "capsule": "bfcef1758a7fb24facb31e89f4584befbc72212c9ee6f27eddb0d1e258383ead",
+    "etas_result": "eb56b90f45c71d7a84d8730798a9ebf5693dca5d75ec2e11d52488c5c0c1e330",
+    "x1_result": "c39b36dc334221816fadf1e4994dab7f1c70f89cbff32629e7a2acac80387a9a",
+    "x1_qa": "1b7fde059f13ac267b65b0a84161e70a644030f33893478de7c4538f8cbe2567",
+    "point_models": "daa054845b777dee243c91d144c6c67ffc51295d3b6f4d23dbd1fd38fab2e756",
+    "polygon_integration": "7cd769d1860f386e202761c4427b4f47f90de90f16aac29e490550249b6fe778",
+    "r4_likelihood": "9c94c1a388bab4c2d8f9a992615824ed1dcc8d00fecff4613496f65031415bca",
+    "fast_polygon": "103dcfe192ee8e30437178f3b9316ff6024ddb46fd0434d7168de2cb0a84b71b",
+    "interval_source": "2fcdfef322cb2bfe824411faf76722cd59a5d5282940b0d9e6d1d76ba64a1c08",
+    "r4_delivery": "beb6f34af4f392fd5a820b59f810ef6c95385f33f5e955ad1e7aa062da626fab",
+    "catalog": "b3ec9720abaed342412fe42b58e1f1ab6ad703f2bb4c524d9623416c2d689154"
+  },
+  "limitations": [
+    "Analytic frozen-history base plus 500-trajectory mean of generations >=1; X1 uses no simulated events in its z history.",
+    "Retrospective out-of-sample evidence; X1 form may have been designed using the full catalogue.",
+    "Parameters and KDE frozen to historical epoch; observational differences between epochs remain.",
+    "Poisson scoring includes zeros and integral; N-test is descriptive under potentially overdispersed counts.",
+    "Robustness analysis after observing Q2; neither independent nor prospective validation."
+  ],
+  "R4": "HOLD_NO_SEAL_NO_FORECAST",
+  "operational_forecasts_issued": 0,
+  "seals_publications_emails": 0
+}

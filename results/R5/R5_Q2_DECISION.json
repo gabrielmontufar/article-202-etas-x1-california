@@ -1,0 +1,115 @@
+{
+  "status": "Q2_COMPLETE",
+  "utc": "2026-10-24T01:28:01.970431+00:00",
+  "decision": "FAIL_SEUDOPROSPECTIVO",
+  "N": 2122,
+  "days": 1025,
+  "cells": 4296,
+  "IG_nats_per_event": 0.00046502263621299217,
+  "intervals": {
+    "7": {
+      "percentile_original_95": [
+        -0.0004651232918306254,
+        0.0014533229368537798
+      ],
+      "bootstrap_t_95": [
+        -0.00048634524444570424,
+        0.0014945265565166907
+      ],
+      "resamples": 9999,
+      "seed": 20261020,
+      "days_including_final_fraction": 1025
+    },
+    "14": {
+      "percentile_original_95": [
+        -0.00045950720761042153,
+        0.0014488960775122025
+      ],
+      "bootstrap_t_95": [
+        -0.0004752704615129308,
+        0.00154290100981176
+      ],
+      "resamples": 9999,
+      "seed": 20261020,
+      "days_including_final_fraction": 1025
+    }
+  },
+  "Q3_receipt_sha256": "3fc24ae4ed1b999b4ad8da7854fb90fab4f0c27afe001c4811cf54c2b155da25",
+  "Q3_scope": "Synthetic fixed-window calibration, not adjusted ETAS-X1 power",
+  "Q1_used": false,
+  "Q1_completion_required_for_Q2": false,
+  "all_R5_questions_complete": false,
+  "definition": {
+    "script_sha256": "5fd3fecd3841f4c126bcf3ce79f99fe8ba78065a7b5f710f5e8320636e55145f",
+    "source_lock_sha256": "ab48b2bde320223d9f298c7fcf9934b1d189c990760b91756f562feaf25b81e1",
+    "review_receipt_sha256": "65d56b8a8a221f0f6e5916a2cfdac4da8b563e5df87312ededab5419833de5da",
+    "reviewer": "Claude",
+    "start_inclusive": "2024-01-01T00:00:00+00:00",
+    "end_exclusive": "2026-10-21T03:21:46.320144+00:00",
+    "model_parameters": {
+      "ETAS": {
+        "mu": 0.49932041105990216,
+        "n": 0.95,
+        "alpha_ratio": 0.4832701543673593,
+        "b": 1.100173586839845,
+        "c": 0.0027743612396784116,
+        "p": 1.0807022272610254,
+        "q": 2.0803566512400873,
+        "d0": 0.5,
+        "eta": 0.4105508821499558,
+        "gamma": 0,
+        "m0": 2.5
+      },
+      "ETAS_X1": {
+        "mu": 0.49932041105990216,
+        "n": 0.95,
+        "alpha_ratio": 0.4832701543673593,
+        "b": 1.100173586839845,
+        "c": 0.0027743612396784116,
+        "p": 1.0807022272610254,
+        "q": 2.0803566512400873,
+        "d0": 0.5,
+        "eta": 0.4105508821499558,
+        "gamma": 0.09335882678597657,
+        "m0": 2.5
+      }
+    },
+    "Q1_results_used": false,
+    "generation_method": "FROZEN_HISTORY_INTENSITY_NO_CASCADES",
+    "R4": "HOLD_NO_SEAL_NO_FORECAST"
+  },
+  "generation_manifest_sha256": "87a1c680bfd6f781441bbc267f3c673c8798506e7f9e2ca6c489ace1e3120841",
+  "source_hashes": {
+    "amendment": "4c169541bd2ab654f838da12c45b341f2bd194f66237777470c0ff31dd2a76a8",
+    "order_note": "b910456bf9774a89c96ada8dc2667fd7abcc98af67373ff824676acae7b07f13",
+    "intensity_clarification": "7c6d8e8474740acc4a332f6b8fcb12c8c6a92ce1d9a14817b2f393aea1cacebd",
+    "ns_clarification": "d49ffb2d78893db8ac6d6470829dea28e4dacd1c9cd06900cb253bbb8e2e397f",
+    "q3_receipt": "3fc24ae4ed1b999b4ad8da7854fb90fab4f0c27afe001c4811cf54c2b155da25",
+    "count_receipt": "16a4057ff3c38a14629c1c00e667f7f532752ebd035cd2859160920e8228635b",
+    "count_ids": "c2e7b621f2ecb37a570fb213b2d2d2fe0cf120943c9e635624d235f10cad60ad",
+    "support": "65879ae8cff2fbda298b466ea3d2de6e82a82c291050bf05fc83f917163e9e00",
+    "prepared_receipt": "8267502e54bda283b3f3d16b5e2b4268f3d3fbf191039660580597fa83c41ecd",
+    "prepared_history": "75174d97650f462d4180fdc3dc194f15bc4546d11bb5c329cdc09f44175d9c5e",
+    "capsule": "bfcef1758a7fb24facb31e89f4584befbc72212c9ee6f27eddb0d1e258383ead",
+    "etas_result": "eb56b90f45c71d7a84d8730798a9ebf5693dca5d75ec2e11d52488c5c0c1e330",
+    "x1_result": "c39b36dc334221816fadf1e4994dab7f1c70f89cbff32629e7a2acac80387a9a",
+    "x1_qa": "1b7fde059f13ac267b65b0a84161e70a644030f33893478de7c4538f8cbe2567",
+    "point_models": "daa054845b777dee243c91d144c6c67ffc51295d3b6f4d23dbd1fd38fab2e756",
+    "polygon_integration": "7cd769d1860f386e202761c4427b4f47f90de90f16aac29e490550249b6fe778",
+    "r4_likelihood": "9c94c1a388bab4c2d8f9a992615824ed1dcc8d00fecff4613496f65031415bca",
+    "fast_polygon": "103dcfe192ee8e30437178f3b9316ff6024ddb46fd0434d7168de2cb0a84b71b",
+    "interval_source": "2fcdfef322cb2bfe824411faf76722cd59a5d5282940b0d9e6d1d76ba64a1c08",
+    "r4_delivery": "beb6f34af4f392fd5a820b59f810ef6c95385f33f5e955ad1e7aa062da626fab",
+    "catalog": "b3ec9720abaed342412fe42b58e1f1ab6ad703f2bb4c524d9623416c2d689154"
+  },
+  "limitations": [
+    "Frozen-history intensities omit intraday descendants and can underestimate rates in strong sequences in both models.",
+    "Retrospective out-of-sample evidence; X1 form may have been designed using the full catalogue.",
+    "Parameters and KDE frozen to historical epoch; observational differences between epochs remain.",
+    "Poisson scoring includes zeros and integral; N-test is descriptive under potentially overdispersed counts.",
+    "A Q2 PASS alone only supports proposing a separately preregistered prospective study."
+  ],
+  "R4": "HOLD_NO_SEAL_NO_FORECAST",
+  "operational_forecasts_issued": 0,
+  "seals_publications_emails": 0
+}

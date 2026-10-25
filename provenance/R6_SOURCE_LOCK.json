@@ -1,0 +1,112 @@
+{
+  "utc": "2026-10-24T02:03:37.969Z",
+  "status": "STATIC_SOURCE_PINS_NOT_EXECUTION_APPROVAL",
+  "R5_source_lock_sha256": "ab48b2bde320223d9f298c7fcf9934b1d189c990760b91756f562feaf25b81e1",
+  "adenda_sha256": "4322e889aa4eea5e38938412cd5fd117075306a9d1fb4a6177158e61db250454",
+  "Q1_warm_starts": [
+    {
+      "label": "q1_n_0.99",
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w2_20261023\\w2_original_verified\\r5_q1\\out_v3_W2\\sensitivity_2016_2023\\n\\point_0.99\\POINT_RESULT.json",
+      "sha256": "4f7db3d56784481dd8a106a26139f71b75db370129b14190b9a9e7709ad9decf",
+      "bytes": 4621,
+      "best_x": [
+        -0.7107643180746691,
+        0.99,
+        0.48226658956822155,
+        1.0915135728915752,
+        -5.920913246158963,
+        1.0778628984865832,
+        2.067820921636907,
+        -0.6931471805599453,
+        0.4045781750169556
+      ]
+    },
+    {
+      "label": "q1_d0_0.3",
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w3_original_verified\\r5_q1\\out_v3_W3\\sensitivity_2016_2023\\d0\\point_0.3\\POINT_RESULT.json",
+      "sha256": "16db1c59cb9989460eee19d4291fde94320adeaad5b89cbd20f44158e426af5e",
+      "bytes": 4653,
+      "best_x": [
+        -0.7280733819314348,
+        0.95,
+        0.4911580956591866,
+        1.1036797706231738,
+        -5.855097031305783,
+        1.0809454056041954,
+        1.711929619328556,
+        -1.2039728043259361,
+        0.5171067843541692
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "C:/Users/gjm31/Documents/Codex/article202_panama_probabilistic_20261020/amendment_R6/R6_PREREGISTRO_ES.md",
+      "bytes": 3284,
+      "sha256": "666cb2d5b78aa87a34491dd4510d5dc8e944fbdae3ac62b9de0594872dc11f9c"
+    },
+    {
+      "path": "C:/Users/gjm31/Documents/Codex/article202_panama_probabilistic_20261020/amendment_R6/R6_ENCARGO_CODEX_ES.md",
+      "bytes": 3340,
+      "sha256": "c990e8ea598a30bd6c4633b7d79f8241eb4f078444708a42fd1f59d28f08ecea"
+    },
+    {
+      "path": "C:/Users/gjm31/Documents/Codex/article202_panama_probabilistic_20261020/amendment_R6/R6_ADOPCION_HUMANA_ANTES_DE_CALCULO_ES.md",
+      "bytes": 1927,
+      "sha256": "8a8c372389f6c497a2a41ce8ff1ce09996cd20fc1e43885b802803add1a5ef3f"
+    },
+    {
+      "path": "C:/Users/gjm31/Documents/Codex/article202_panama_probabilistic_20261020/amendment_R6/R6_ADENDA_IMPLEMENTACION_ANTES_DE_CALCULO_ES.md",
+      "bytes": 3192,
+      "sha256": "4322e889aa4eea5e38938412cd5fd117075306a9d1fb4a6177158e61db250454"
+    },
+    {
+      "path": "C:/Users/gjm31/Documents/Codex/article202_panama_probabilistic_20261020/amendment_R6/baseline/r5_q2_frozen_history_5fd3fecd.py",
+      "bytes": 52227,
+      "sha256": "5fd3fecd3841f4c126bcf3ce79f99fe8ba78065a7b5f710f5e8320636e55145f"
+    },
+    {
+      "path": "C:/Users/gjm31/Documents/Codex/article202_panama_probabilistic_20261020/amendment_P1A1_R4/r4_numba_warmstart_profile.py",
+      "bytes": 8423,
+      "sha256": "cd7b9fb0ad432e56536e82e8e38dbbb124b52acfb875bd1892b1714fe9e96674"
+    },
+    {
+      "path": "C:/Users/gjm31/Documents/Codex/article202_panama_probabilistic_20261020/../bootstrap_nube_R4/aceleracion_adoptada_R4_v1/fast_trigger.py",
+      "bytes": 4445,
+      "sha256": "c1c3ea8c8378b947cf2de96a4f26edb193b3d75fd00d32dcd46df7923d0e61f0"
+    },
+    {
+      "path": "C:/Users/gjm31/Documents/Codex/article202_panama_probabilistic_20261020/amendment_R5/R5_Q2_DICTAMEN_6_GEOGRAFIA_DOMINIO_CLAUDE_ES.md",
+      "bytes": 3941,
+      "sha256": "acc6a4a592c5b3098efa9df68fd31314ee5493b9f4bf1b86123372a09e31e185"
+    },
+    {
+      "path": "C:/Users/gjm31/Documents/Codex/article202_panama_probabilistic_20261020/amendment_R5/q1_final_20261023/R5_Q1_FINAL_SHA256.json",
+      "bytes": 2502,
+      "sha256": "2e446952002bc25c36ad97dd197b355c9699f46263228eaa3819ff2706f8e555"
+    },
+    {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w3_original_verified\\r5_q1\\out_v3_W3\\sensitivity_2016_2023\\d0\\point_0.3\\POINT_RESULT.json",
+      "bytes": 4653,
+      "sha256": "16db1c59cb9989460eee19d4291fde94320adeaad5b89cbd20f44158e426af5e"
+    },
+    {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w2_20261023\\w2_original_verified\\r5_q1\\out_v3_W2\\sensitivity_2016_2023\\n\\point_0.99\\POINT_RESULT.json",
+      "bytes": 4621,
+      "sha256": "4f7db3d56784481dd8a106a26139f71b75db370129b14190b9a9e7709ad9decf"
+    },
+    {
+      "path": "C:/Users/gjm31/Documents/Codex/article202_panama_probabilistic_20261020/amendment_R6/R6_DICTAMEN_1_REVISION_ESTATICA_CLAUDE_ES.md",
+      "bytes": 6021,
+      "sha256": "e1725061c79b28d0c0414eff0d3fc6379b9f6bab23f8c376fd3460f40c92059c"
+    },
+    {
+      "path": "C:/Users/gjm31/Documents/Codex/article202_panama_probabilistic_20261020/amendment_R6/R6_ADENDA_Z_Y_REVISION1_ES.md",
+      "bytes": 1015,
+      "sha256": "0c40dac663f96b4aaf781ad31b9e5c97922c482b5b14b69e77488de4a6c40a65"
+    }
+  ],
+  "z_definition": "FROZEN_PREFIX_TIME_AGING_NO_SIMULATED_EVENTS",
+  "prior_script_sha256": "296d6d8aff11a3cafff86e718309b1127ae5afb4cb8ad32fece321c434030cf1",
+  "revision1_scope": "Vector generation0/cost only; awaiting Claude exact-diff review"
+}

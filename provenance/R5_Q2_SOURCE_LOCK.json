@@ -1,0 +1,131 @@
+{
+  "schema": "R5_Q2_SOURCE_LOCK_V1",
+  "utc": "2026-10-23T14:10:12.166521+00:00",
+  "sources": {
+    "amendment": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\R5_ENMIENDA_PREREGISTRADA_ANTES_DE_CALCULO_ES.md",
+      "sha256": "4c169541bd2ab654f838da12c45b341f2bd194f66237777470c0ff31dd2a76a8",
+      "bytes": 6512
+    },
+    "order_note": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\R5_NOTA_ORDEN_Q2_ANTES_DE_Q1_ES.md",
+      "sha256": "b910456bf9774a89c96ada8dc2667fd7abcc98af67373ff824676acae7b07f13",
+      "bytes": 2530
+    },
+    "intensity_clarification": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\R5_ACLARACION_Q2_INTENSIDAD_CONGELADA_ES.md",
+      "sha256": "7c6d8e8474740acc4a332f6b8fcb12c8c6a92ce1d9a14817b2f393aea1cacebd",
+      "bytes": 3356
+    },
+    "ns_clarification": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\R5_ACLARACION_Q2_DESCRIPTIVOS_N_S_ES.md",
+      "sha256": "d49ffb2d78893db8ac6d6470829dea28e4dacd1c9cd06900cb253bbb8e2e397f",
+      "bytes": 2744
+    },
+    "q3_receipt": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\R5_Q3_RECEPCION_VERIFICADA_20261023.json",
+      "sha256": "3fc24ae4ed1b999b4ad8da7854fb90fab4f0c27afe001c4811cf54c2b155da25",
+      "bytes": 11506
+    },
+    "count_receipt": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\R5_Q3_N_REALIZADO.json",
+      "sha256": "16a4057ff3c38a14629c1c00e667f7f532752ebd035cd2859160920e8228635b",
+      "bytes": 3829
+    },
+    "count_ids": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\R5_Q3_CONTEO_IDS_AUDIT.json",
+      "sha256": "c2e7b621f2ecb37a570fb213b2d2d2fe0cf120943c9e635624d235f10cad60ad",
+      "bytes": 407504
+    },
+    "support": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_P1A1_R4\\R4_PROPOSED_SUPPORT.json",
+      "sha256": "65879ae8cff2fbda298b466ea3d2de6e82a82c291050bf05fc83f917163e9e00",
+      "bytes": 163482
+    },
+    "prepared_receipt": {
+      "path": "C:\\Users\\gjm31\\forge_cache\\panama_probabilistic_20261020\\amendment_20261021\\R4\\masked_diagnostic_authorized_20261021\\keep_unknown\\PREPARED_DATA_RECEIPT.json",
+      "sha256": "8267502e54bda283b3f3d16b5e2b4268f3d3fbf191039660580597fa83c41ecd",
+      "bytes": 1344
+    },
+    "prepared_history": {
+      "path": "C:\\Users\\gjm31\\forge_cache\\panama_probabilistic_20261020\\amendment_20261021\\R4\\masked_diagnostic_authorized_20261021\\keep_unknown\\prepared_history.npz",
+      "sha256": "75174d97650f462d4180fdc3dc194f15bc4546d11bb5c329cdc09f44175d9c5e",
+      "bytes": 2222864
+    },
+    "capsule": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\bootstrap_nube_R4\\work\\references\\sensitivity_2016_2023.json",
+      "sha256": "bfcef1758a7fb24facb31e89f4584befbc72212c9ee6f27eddb0d1e258383ead",
+      "bytes": 1067
+    },
+    "etas_result": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\bootstrap_nube_R4\\work\\reference_fits\\sensitivity_2016_2023\\ETAS_FIT_RESULT.json",
+      "sha256": "eb56b90f45c71d7a84d8730798a9ebf5693dca5d75ec2e11d52488c5c0c1e330",
+      "bytes": 6082
+    },
+    "x1_result": {
+      "path": "C:\\Users\\gjm31\\forge_cache\\panama_probabilistic_20261020\\amendment_20261021\\R4\\final_diagnostics_20261023\\keep_unknown\\sensitivity_2016_2023\\X1_FIT_RESULT.json",
+      "sha256": "c39b36dc334221816fadf1e4994dab7f1c70f89cbff32629e7a2acac80387a9a",
+      "bytes": 2593
+    },
+    "x1_qa": {
+      "path": "C:\\Users\\gjm31\\forge_cache\\panama_probabilistic_20261020\\amendment_20261021\\R4\\final_diagnostics_20261023\\keep_unknown\\sensitivity_2016_2023\\X1_INTEGRATION_QA.json",
+      "sha256": "1b7fde059f13ac267b65b0a84161e70a644030f33893478de7c4538f8cbe2567",
+      "bytes": 629
+    },
+    "point_models": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\scripts\\point_models.py",
+      "sha256": "daa054845b777dee243c91d144c6c67ffc51295d3b6f4d23dbd1fd38fab2e756",
+      "bytes": 16930
+    },
+    "polygon_integration": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\scripts\\polygon_integration.py",
+      "sha256": "7cd769d1860f386e202761c4427b4f47f90de90f16aac29e490550249b6fe778",
+      "bytes": 6162
+    },
+    "r4_likelihood": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\scripts\\r4_likelihood.py",
+      "sha256": "9c94c1a388bab4c2d8f9a992615824ed1dcc8d00fecff4613496f65031415bca",
+      "bytes": 9223
+    },
+    "fast_polygon": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\bootstrap_nube_R4\\aceleracion_adoptada_R4_v1\\fast_polygon.py",
+      "sha256": "103dcfe192ee8e30437178f3b9316ff6024ddb46fd0434d7168de2cb0a84b71b",
+      "bytes": 4247
+    },
+    "interval_source": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_P1A1_R4\\dimension_event_rule.py",
+      "sha256": "2fcdfef322cb2bfe824411faf76722cd59a5d5282940b0d9e6d1d76ba64a1c08",
+      "bytes": 8615
+    },
+    "r4_delivery": {
+      "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_P1A1_R4\\R4_FINAL_DELIVERY_VERIFICATION_20261023.json",
+      "sha256": "beb6f34af4f392fd5a820b59f810ef6c95385f33f5e955ad1e7aa062da626fab",
+      "bytes": 1957
+    },
+    "catalog": {
+      "path": "C:\\Users\\gjm31\\forge_cache\\panama_probabilistic_20261020\\amendment_20261021\\california_training\\ANSS_RELM_TRAINING.sqlite",
+      "sha256": "b3ec9720abaed342412fe42b58e1f1ab6ad703f2bb4c524d9623416c2d689154",
+      "bytes": 141688832,
+      "hash_provenance": "admitted count receipt; full verification required at runtime before use"
+    }
+  },
+  "environment_pins": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pyproj": "3.8.0",
+    "numba": "0.68.0",
+    "llvmlite": "0.50.0"
+  },
+  "generation_is_deterministic": true,
+  "generation_random_draws": 0,
+  "runtime_guards": {
+    "minimum_RAM_MiB": 512,
+    "minimum_disk_GiB": 4,
+    "numba_threads": 3,
+    "BLAS_threads": 1,
+    "numerical_workers": 1
+  },
+  "note_commit": "e3b57116391a6f374ce7bcf182251aea0b030ca3",
+  "implementation_clarification_commit": "7abb3686d8e9eec725ec17da4a2aa05df0f4cea5",
+  "status": "SOURCE_LOCK_FOR_STATIC_REVIEW_NO_Q2_CALCULATION"
+}

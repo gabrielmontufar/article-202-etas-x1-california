@@ -1,0 +1,618 @@
+{
+  "parameters": {
+    "mu": 0.4752842660093794,
+    "n": 0.99,
+    "alpha_ratio": 0.4899631047185385,
+    "b": 1.094801113103585,
+    "c": 0.002767114772632016,
+    "p": 1.0781097797262575,
+    "q": 1.719772268762424,
+    "d0": 0.30863744047653596,
+    "eta": 0.5058253296104832,
+    "gamma": 0,
+    "m0": 2.5
+  },
+  "selected_start": "sobol_7",
+  "nll": 57906.34513507394,
+  "starts": [
+    {
+      "definition": {
+        "script_sha256": "f40be85a0a6058338e684ae4bd411e94584f6494cf7f0f3459b413e929502116",
+        "source_lock_sha256": "6d0eef9c46a2ccc89ef8455b47af58b8d7f0a6842269f801d0514d26574f7b17",
+        "review_receipt_sha256": "fff1fd7430e7355050d3f140df893a8af39bdc80d8fabf64c95ca8fd31d5e1f4",
+        "preregistration_sha256": "666cb2d5b78aa87a34491dd4510d5dc8e944fbdae3ac62b9de0594872dc11f9c",
+        "start_inclusive": "2024-01-01T00:00:00+00:00",
+        "end_exclusive": "2026-10-21T03:21:46.320144+00:00",
+        "generation_method": "R4_MONTE_CARLO_INTRADAY_CASCADES",
+        "trajectories_per_day": 500,
+        "adenda_sha256": "4322e889aa4eea5e38938412cd5fd117075306a9d1fb4a6177158e61db250454",
+        "simulation_semantics": "R4_DISK_ANALYTIC_PLUS_GENERATION_GE1_FROZEN_HISTORY_X1",
+        "zero_mean_rule": "POSITIVE_ANALYTIC_BASE_NO_PSEUDOCOUNT",
+        "z_definition": "FROZEN_PREFIX_TIME_AGING_NO_SIMULATED_EVENTS",
+        "Q1_warm_starts": [
+          {
+            "label": "q1_n_0.99",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w2_20261023\\w2_original_verified\\r5_q1\\out_v3_W2\\sensitivity_2016_2023\\n\\point_0.99\\POINT_RESULT.json",
+            "sha256": "4f7db3d56784481dd8a106a26139f71b75db370129b14190b9a9e7709ad9decf",
+            "bytes": 4621,
+            "best_x": [
+              -0.7107643180746691,
+              0.99,
+              0.48226658956822155,
+              1.0915135728915752,
+              -5.920913246158963,
+              1.0778628984865832,
+              2.067820921636907,
+              -0.6931471805599453,
+              0.4045781750169556
+            ]
+          },
+          {
+            "label": "q1_d0_0.3",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w3_original_verified\\r5_q1\\out_v3_W3\\sensitivity_2016_2023\\d0\\point_0.3\\POINT_RESULT.json",
+            "sha256": "16db1c59cb9989460eee19d4291fde94320adeaad5b89cbd20f44158e426af5e",
+            "bytes": 4653,
+            "best_x": [
+              -0.7280733819314348,
+              0.95,
+              0.4911580956591866,
+              1.1036797706231738,
+              -5.855097031305783,
+              1.0809454056041954,
+              1.711929619328556,
+              -1.2039728043259361,
+              0.5171067843541692
+            ]
+          }
+        ],
+        "day_seed": "first8 big-endian SHA256('R6|'+UTC YYYY-MM-DD)",
+        "replicate_seed": "SeedSequence(day_seed).spawn(500); same replicate seeds both models",
+        "Q1_results_used": "TWO_FIXED_INITIAL_VECTORS_ONLY",
+        "R4": "HOLD_NO_SEAL_NO_FORECAST",
+        "analysis": "POST_Q2_ROBUSTNESS_NOT_NEW_UNSEEN_VALIDATION"
+      },
+      "start": "reference",
+      "initial_x": [
+        -0.6945072829602158,
+        0.95,
+        0.4832701543673593,
+        1.100173586839845,
+        -5.887334742179791,
+        1.0807022272610254,
+        2.0803566512400873,
+        -0.6931471805599453,
+        0.4105508821499558
+      ],
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": 57906.34524759231,
+      "x": [
+        -0.7438075614412525,
+        0.99,
+        0.4899462947798403,
+        1.094820660602321,
+        -5.890979935598178,
+        1.0780980517329803,
+        1.7197699227975913,
+        -1.1755681545724739,
+        0.505799647604975
+      ],
+      "calls": 41,
+      "iterations": 35,
+      "active_bounds": [
+        1
+      ],
+      "wall_seconds": 1059.6358206000004,
+      "CPU_seconds": 2829.09375
+    },
+    {
+      "definition": {
+        "script_sha256": "f40be85a0a6058338e684ae4bd411e94584f6494cf7f0f3459b413e929502116",
+        "source_lock_sha256": "6d0eef9c46a2ccc89ef8455b47af58b8d7f0a6842269f801d0514d26574f7b17",
+        "review_receipt_sha256": "fff1fd7430e7355050d3f140df893a8af39bdc80d8fabf64c95ca8fd31d5e1f4",
+        "preregistration_sha256": "666cb2d5b78aa87a34491dd4510d5dc8e944fbdae3ac62b9de0594872dc11f9c",
+        "start_inclusive": "2024-01-01T00:00:00+00:00",
+        "end_exclusive": "2026-10-21T03:21:46.320144+00:00",
+        "generation_method": "R4_MONTE_CARLO_INTRADAY_CASCADES",
+        "trajectories_per_day": 500,
+        "adenda_sha256": "4322e889aa4eea5e38938412cd5fd117075306a9d1fb4a6177158e61db250454",
+        "simulation_semantics": "R4_DISK_ANALYTIC_PLUS_GENERATION_GE1_FROZEN_HISTORY_X1",
+        "zero_mean_rule": "POSITIVE_ANALYTIC_BASE_NO_PSEUDOCOUNT",
+        "z_definition": "FROZEN_PREFIX_TIME_AGING_NO_SIMULATED_EVENTS",
+        "Q1_warm_starts": [
+          {
+            "label": "q1_n_0.99",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w2_20261023\\w2_original_verified\\r5_q1\\out_v3_W2\\sensitivity_2016_2023\\n\\point_0.99\\POINT_RESULT.json",
+            "sha256": "4f7db3d56784481dd8a106a26139f71b75db370129b14190b9a9e7709ad9decf",
+            "bytes": 4621,
+            "best_x": [
+              -0.7107643180746691,
+              0.99,
+              0.48226658956822155,
+              1.0915135728915752,
+              -5.920913246158963,
+              1.0778628984865832,
+              2.067820921636907,
+              -0.6931471805599453,
+              0.4045781750169556
+            ]
+          },
+          {
+            "label": "q1_d0_0.3",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w3_original_verified\\r5_q1\\out_v3_W3\\sensitivity_2016_2023\\d0\\point_0.3\\POINT_RESULT.json",
+            "sha256": "16db1c59cb9989460eee19d4291fde94320adeaad5b89cbd20f44158e426af5e",
+            "bytes": 4653,
+            "best_x": [
+              -0.7280733819314348,
+              0.95,
+              0.4911580956591866,
+              1.1036797706231738,
+              -5.855097031305783,
+              1.0809454056041954,
+              1.711929619328556,
+              -1.2039728043259361,
+              0.5171067843541692
+            ]
+          }
+        ],
+        "day_seed": "first8 big-endian SHA256('R6|'+UTC YYYY-MM-DD)",
+        "replicate_seed": "SeedSequence(day_seed).spawn(500); same replicate seeds both models",
+        "Q1_results_used": "TWO_FIXED_INITIAL_VECTORS_ONLY",
+        "R4": "HOLD_NO_SEAL_NO_FORECAST",
+        "analysis": "POST_Q2_ROBUSTNESS_NOT_NEW_UNSEEN_VALIDATION"
+      },
+      "start": "q1_n_0.99",
+      "initial_x": [
+        -0.7107643180746691,
+        0.99,
+        0.48226658956822155,
+        1.0915135728915752,
+        -5.920913246158963,
+        1.0778628984865832,
+        2.067820921636907,
+        -0.6931471805599453,
+        0.4045781750169556
+      ],
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": 57906.34513602148,
+      "x": [
+        -0.743842821451598,
+        0.99,
+        0.48995172323573855,
+        1.094802817875703,
+        -5.889978455485246,
+        1.0781091071843496,
+        1.7197854445839533,
+        -1.1755668372959311,
+        0.5058110315364505
+      ],
+      "calls": 40,
+      "iterations": 35,
+      "active_bounds": [
+        1
+      ],
+      "wall_seconds": 1080.1316086000006,
+      "CPU_seconds": 2881.828125
+    },
+    {
+      "definition": {
+        "script_sha256": "f40be85a0a6058338e684ae4bd411e94584f6494cf7f0f3459b413e929502116",
+        "source_lock_sha256": "6d0eef9c46a2ccc89ef8455b47af58b8d7f0a6842269f801d0514d26574f7b17",
+        "review_receipt_sha256": "fff1fd7430e7355050d3f140df893a8af39bdc80d8fabf64c95ca8fd31d5e1f4",
+        "preregistration_sha256": "666cb2d5b78aa87a34491dd4510d5dc8e944fbdae3ac62b9de0594872dc11f9c",
+        "start_inclusive": "2024-01-01T00:00:00+00:00",
+        "end_exclusive": "2026-10-21T03:21:46.320144+00:00",
+        "generation_method": "R4_MONTE_CARLO_INTRADAY_CASCADES",
+        "trajectories_per_day": 500,
+        "adenda_sha256": "4322e889aa4eea5e38938412cd5fd117075306a9d1fb4a6177158e61db250454",
+        "simulation_semantics": "R4_DISK_ANALYTIC_PLUS_GENERATION_GE1_FROZEN_HISTORY_X1",
+        "zero_mean_rule": "POSITIVE_ANALYTIC_BASE_NO_PSEUDOCOUNT",
+        "z_definition": "FROZEN_PREFIX_TIME_AGING_NO_SIMULATED_EVENTS",
+        "Q1_warm_starts": [
+          {
+            "label": "q1_n_0.99",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w2_20261023\\w2_original_verified\\r5_q1\\out_v3_W2\\sensitivity_2016_2023\\n\\point_0.99\\POINT_RESULT.json",
+            "sha256": "4f7db3d56784481dd8a106a26139f71b75db370129b14190b9a9e7709ad9decf",
+            "bytes": 4621,
+            "best_x": [
+              -0.7107643180746691,
+              0.99,
+              0.48226658956822155,
+              1.0915135728915752,
+              -5.920913246158963,
+              1.0778628984865832,
+              2.067820921636907,
+              -0.6931471805599453,
+              0.4045781750169556
+            ]
+          },
+          {
+            "label": "q1_d0_0.3",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w3_original_verified\\r5_q1\\out_v3_W3\\sensitivity_2016_2023\\d0\\point_0.3\\POINT_RESULT.json",
+            "sha256": "16db1c59cb9989460eee19d4291fde94320adeaad5b89cbd20f44158e426af5e",
+            "bytes": 4653,
+            "best_x": [
+              -0.7280733819314348,
+              0.95,
+              0.4911580956591866,
+              1.1036797706231738,
+              -5.855097031305783,
+              1.0809454056041954,
+              1.711929619328556,
+              -1.2039728043259361,
+              0.5171067843541692
+            ]
+          }
+        ],
+        "day_seed": "first8 big-endian SHA256('R6|'+UTC YYYY-MM-DD)",
+        "replicate_seed": "SeedSequence(day_seed).spawn(500); same replicate seeds both models",
+        "Q1_results_used": "TWO_FIXED_INITIAL_VECTORS_ONLY",
+        "R4": "HOLD_NO_SEAL_NO_FORECAST",
+        "analysis": "POST_Q2_ROBUSTNESS_NOT_NEW_UNSEEN_VALIDATION"
+      },
+      "start": "q1_d0_0.3",
+      "initial_x": [
+        -0.7280733819314348,
+        0.95,
+        0.4911580956591866,
+        1.1036797706231738,
+        -5.855097031305783,
+        1.0809454056041954,
+        1.711929619328556,
+        -1.2039728043259361,
+        0.5171067843541692
+      ],
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": 57906.34514830564,
+      "x": [
+        -0.7439062863022017,
+        0.99,
+        0.4899467404397713,
+        1.0948051511419565,
+        -5.890249255503439,
+        1.0781065993984975,
+        1.7197282123940447,
+        -1.1756007086778484,
+        0.505789683373799
+      ],
+      "calls": 39,
+      "iterations": 34,
+      "active_bounds": [
+        1
+      ],
+      "wall_seconds": 1035.421147699999,
+      "CPU_seconds": 2767.171875
+    },
+    {
+      "definition": {
+        "script_sha256": "f40be85a0a6058338e684ae4bd411e94584f6494cf7f0f3459b413e929502116",
+        "source_lock_sha256": "6d0eef9c46a2ccc89ef8455b47af58b8d7f0a6842269f801d0514d26574f7b17",
+        "review_receipt_sha256": "fff1fd7430e7355050d3f140df893a8af39bdc80d8fabf64c95ca8fd31d5e1f4",
+        "preregistration_sha256": "666cb2d5b78aa87a34491dd4510d5dc8e944fbdae3ac62b9de0594872dc11f9c",
+        "start_inclusive": "2024-01-01T00:00:00+00:00",
+        "end_exclusive": "2026-10-21T03:21:46.320144+00:00",
+        "generation_method": "R4_MONTE_CARLO_INTRADAY_CASCADES",
+        "trajectories_per_day": 500,
+        "adenda_sha256": "4322e889aa4eea5e38938412cd5fd117075306a9d1fb4a6177158e61db250454",
+        "simulation_semantics": "R4_DISK_ANALYTIC_PLUS_GENERATION_GE1_FROZEN_HISTORY_X1",
+        "zero_mean_rule": "POSITIVE_ANALYTIC_BASE_NO_PSEUDOCOUNT",
+        "z_definition": "FROZEN_PREFIX_TIME_AGING_NO_SIMULATED_EVENTS",
+        "Q1_warm_starts": [
+          {
+            "label": "q1_n_0.99",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w2_20261023\\w2_original_verified\\r5_q1\\out_v3_W2\\sensitivity_2016_2023\\n\\point_0.99\\POINT_RESULT.json",
+            "sha256": "4f7db3d56784481dd8a106a26139f71b75db370129b14190b9a9e7709ad9decf",
+            "bytes": 4621,
+            "best_x": [
+              -0.7107643180746691,
+              0.99,
+              0.48226658956822155,
+              1.0915135728915752,
+              -5.920913246158963,
+              1.0778628984865832,
+              2.067820921636907,
+              -0.6931471805599453,
+              0.4045781750169556
+            ]
+          },
+          {
+            "label": "q1_d0_0.3",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w3_original_verified\\r5_q1\\out_v3_W3\\sensitivity_2016_2023\\d0\\point_0.3\\POINT_RESULT.json",
+            "sha256": "16db1c59cb9989460eee19d4291fde94320adeaad5b89cbd20f44158e426af5e",
+            "bytes": 4653,
+            "best_x": [
+              -0.7280733819314348,
+              0.95,
+              0.4911580956591866,
+              1.1036797706231738,
+              -5.855097031305783,
+              1.0809454056041954,
+              1.711929619328556,
+              -1.2039728043259361,
+              0.5171067843541692
+            ]
+          }
+        ],
+        "day_seed": "first8 big-endian SHA256('R6|'+UTC YYYY-MM-DD)",
+        "replicate_seed": "SeedSequence(day_seed).spawn(500); same replicate seeds both models",
+        "Q1_results_used": "TWO_FIXED_INITIAL_VECTORS_ONLY",
+        "R4": "HOLD_NO_SEAL_NO_FORECAST",
+        "analysis": "POST_Q2_ROBUSTNESS_NOT_NEW_UNSEEN_VALIDATION"
+      },
+      "start": "sobol_1",
+      "initial_x": [
+        -9.472196905994863,
+        0.1486787636205554,
+        0.5582878530491143,
+        1.241175850853324,
+        -0.39912754861330146,
+        1.0373576448950916,
+        2.2631360605265947,
+        2.2123018761130626,
+        0.16227807148720197
+      ],
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": 57906.34514053397,
+      "x": [
+        -0.7438067409540219,
+        0.99,
+        0.48997660145392213,
+        1.0947913125184756,
+        -5.889828486521986,
+        1.0781135853787167,
+        1.7197781391625722,
+        -1.1755771112123223,
+        0.5058013790010328
+      ],
+      "calls": 95,
+      "iterations": 73,
+      "active_bounds": [
+        1
+      ],
+      "wall_seconds": 2791.2368547000005,
+      "CPU_seconds": 7433.765625
+    },
+    {
+      "definition": {
+        "script_sha256": "f40be85a0a6058338e684ae4bd411e94584f6494cf7f0f3459b413e929502116",
+        "source_lock_sha256": "6d0eef9c46a2ccc89ef8455b47af58b8d7f0a6842269f801d0514d26574f7b17",
+        "review_receipt_sha256": "fff1fd7430e7355050d3f140df893a8af39bdc80d8fabf64c95ca8fd31d5e1f4",
+        "preregistration_sha256": "666cb2d5b78aa87a34491dd4510d5dc8e944fbdae3ac62b9de0594872dc11f9c",
+        "start_inclusive": "2024-01-01T00:00:00+00:00",
+        "end_exclusive": "2026-10-21T03:21:46.320144+00:00",
+        "generation_method": "R4_MONTE_CARLO_INTRADAY_CASCADES",
+        "trajectories_per_day": 500,
+        "adenda_sha256": "4322e889aa4eea5e38938412cd5fd117075306a9d1fb4a6177158e61db250454",
+        "simulation_semantics": "R4_DISK_ANALYTIC_PLUS_GENERATION_GE1_FROZEN_HISTORY_X1",
+        "zero_mean_rule": "POSITIVE_ANALYTIC_BASE_NO_PSEUDOCOUNT",
+        "z_definition": "FROZEN_PREFIX_TIME_AGING_NO_SIMULATED_EVENTS",
+        "Q1_warm_starts": [
+          {
+            "label": "q1_n_0.99",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w2_20261023\\w2_original_verified\\r5_q1\\out_v3_W2\\sensitivity_2016_2023\\n\\point_0.99\\POINT_RESULT.json",
+            "sha256": "4f7db3d56784481dd8a106a26139f71b75db370129b14190b9a9e7709ad9decf",
+            "bytes": 4621,
+            "best_x": [
+              -0.7107643180746691,
+              0.99,
+              0.48226658956822155,
+              1.0915135728915752,
+              -5.920913246158963,
+              1.0778628984865832,
+              2.067820921636907,
+              -0.6931471805599453,
+              0.4045781750169556
+            ]
+          },
+          {
+            "label": "q1_d0_0.3",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w3_original_verified\\r5_q1\\out_v3_W3\\sensitivity_2016_2023\\d0\\point_0.3\\POINT_RESULT.json",
+            "sha256": "16db1c59cb9989460eee19d4291fde94320adeaad5b89cbd20f44158e426af5e",
+            "bytes": 4653,
+            "best_x": [
+              -0.7280733819314348,
+              0.95,
+              0.4911580956591866,
+              1.1036797706231738,
+              -5.855097031305783,
+              1.0809454056041954,
+              1.711929619328556,
+              -1.2039728043259361,
+              0.5171067843541692
+            ]
+          }
+        ],
+        "day_seed": "first8 big-endian SHA256('R6|'+UTC YYYY-MM-DD)",
+        "replicate_seed": "SeedSequence(day_seed).spawn(500); same replicate seeds both models",
+        "Q1_results_used": "TWO_FIXED_INITIAL_VECTORS_ONLY",
+        "R4": "HOLD_NO_SEAL_NO_FORECAST",
+        "analysis": "POST_Q2_ROBUSTNESS_NOT_NEW_UNSEEN_VALIDATION"
+      },
+      "start": "sobol_4",
+      "initial_x": [
+        4.830554266412541,
+        0.8394371278584003,
+        0.6394762684125453,
+        0.8651257953606546,
+        -6.668751218782955,
+        1.9976727796532212,
+        1.934573766840622,
+        3.8607442528477267,
+        0.5561545902995112
+      ],
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": 57906.34513521314,
+      "x": [
+        -0.7438530931814566,
+        0.99,
+        0.489960036843445,
+        1.094800147777986,
+        -5.889983707867459,
+        1.0781102945868917,
+        1.7197640896322024,
+        -1.1755923884266666,
+        0.5058135241190957
+      ],
+      "calls": 99,
+      "iterations": 79,
+      "active_bounds": [
+        1
+      ],
+      "wall_seconds": 3350.207954700003,
+      "CPU_seconds": 8536.71875
+    },
+    {
+      "definition": {
+        "script_sha256": "f40be85a0a6058338e684ae4bd411e94584f6494cf7f0f3459b413e929502116",
+        "source_lock_sha256": "6d0eef9c46a2ccc89ef8455b47af58b8d7f0a6842269f801d0514d26574f7b17",
+        "review_receipt_sha256": "fff1fd7430e7355050d3f140df893a8af39bdc80d8fabf64c95ca8fd31d5e1f4",
+        "preregistration_sha256": "666cb2d5b78aa87a34491dd4510d5dc8e944fbdae3ac62b9de0594872dc11f9c",
+        "start_inclusive": "2024-01-01T00:00:00+00:00",
+        "end_exclusive": "2026-10-21T03:21:46.320144+00:00",
+        "generation_method": "R4_MONTE_CARLO_INTRADAY_CASCADES",
+        "trajectories_per_day": 500,
+        "adenda_sha256": "4322e889aa4eea5e38938412cd5fd117075306a9d1fb4a6177158e61db250454",
+        "simulation_semantics": "R4_DISK_ANALYTIC_PLUS_GENERATION_GE1_FROZEN_HISTORY_X1",
+        "zero_mean_rule": "POSITIVE_ANALYTIC_BASE_NO_PSEUDOCOUNT",
+        "z_definition": "FROZEN_PREFIX_TIME_AGING_NO_SIMULATED_EVENTS",
+        "Q1_warm_starts": [
+          {
+            "label": "q1_n_0.99",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w2_20261023\\w2_original_verified\\r5_q1\\out_v3_W2\\sensitivity_2016_2023\\n\\point_0.99\\POINT_RESULT.json",
+            "sha256": "4f7db3d56784481dd8a106a26139f71b75db370129b14190b9a9e7709ad9decf",
+            "bytes": 4621,
+            "best_x": [
+              -0.7107643180746691,
+              0.99,
+              0.48226658956822155,
+              1.0915135728915752,
+              -5.920913246158963,
+              1.0778628984865832,
+              2.067820921636907,
+              -0.6931471805599453,
+              0.4045781750169556
+            ]
+          },
+          {
+            "label": "q1_d0_0.3",
+            "path": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w3_original_verified\\r5_q1\\out_v3_W3\\sensitivity_2016_2023\\d0\\point_0.3\\POINT_RESULT.json",
+            "sha256": "16db1c59cb9989460eee19d4291fde94320adeaad5b89cbd20f44158e426af5e",
+            "bytes": 4653,
+            "best_x": [
+              -0.7280733819314348,
+              0.95,
+              0.4911580956591866,
+              1.1036797706231738,
+              -5.855097031305783,
+              1.0809454056041954,
+              1.711929619328556,
+              -1.2039728043259361,
+              0.5171067843541692
+            ]
+          }
+        ],
+        "day_seed": "first8 big-endian SHA256('R6|'+UTC YYYY-MM-DD)",
+        "replicate_seed": "SeedSequence(day_seed).spawn(500); same replicate seeds both models",
+        "Q1_results_used": "TWO_FIXED_INITIAL_VECTORS_ONLY",
+        "R4": "HOLD_NO_SEAL_NO_FORECAST",
+        "analysis": "POST_Q2_ROBUSTNESS_NOT_NEW_UNSEEN_VALIDATION"
+      },
+      "start": "sobol_7",
+      "initial_x": [
+        -1.1899323136886597,
+        0.05602767985314131,
+        0.3337664294056594,
+        1.473373344168067,
+        -4.698924571423741,
+        2.2301287260092795,
+        2.019399632886052,
+        1.4700476200425876,
+        0.0896920926021853
+      ],
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": 57906.34513507394,
+      "x": [
+        -0.7438421991935424,
+        0.99,
+        0.4899631047185385,
+        1.094801113103585,
+        -5.889950099951201,
+        1.0781097797262575,
+        1.719772268762424,
+        -1.1755880227682025,
+        0.5058253296104832
+      ],
+      "calls": 55,
+      "iterations": 46,
+      "active_bounds": [
+        1
+      ],
+      "wall_seconds": 1562.970380800005,
+      "CPU_seconds": 4137.671875
+    }
+  ],
+  "bounds": [
+    [
+      -13.815510557964274,
+      9.210340371976184
+    ],
+    [
+      0.01,
+      0.99
+    ],
+    [
+      0,
+      0.95
+    ],
+    [
+      0.5,
+      2
+    ],
+    [
+      -6.907755278982137,
+      0
+    ],
+    [
+      1.01,
+      2.5
+    ],
+    [
+      1.01,
+      3
+    ],
+    [
+      -2.3025850929940455,
+      3.912023005428146
+    ],
+    [
+      0,
+      1.151292546497023
+    ]
+  ],
+  "QA": [
+    {
+      "order": 32,
+      "nll": 57906.34513507394,
+      "delta_per_target": 0.0
+    },
+    {
+      "order": 64,
+      "nll": 57906.34513507394,
+      "delta_per_target": 0.0
+    },
+    {
+      "order": 64,
+      "subdivision": 2,
+      "nll": 57906.34583219628,
+      "delta_per_target": 7.72434726958563e-08
+    }
+  ],
+  "active_bounds": [
+    1
+  ]
+}

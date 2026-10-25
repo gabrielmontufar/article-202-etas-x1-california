@@ -1,0 +1,85 @@
+{
+  "parameters": {
+    "mu": 0.4752842660093794,
+    "n": 0.99,
+    "alpha_ratio": 0.4899631047185385,
+    "b": 1.094801113103585,
+    "c": 0.002767114772632016,
+    "p": 1.0781097797262575,
+    "q": 1.719772268762424,
+    "d0": 0.30863744047653596,
+    "eta": 0.5058253296104832,
+    "gamma": 0.06616953421184851,
+    "m0": 2.5
+  },
+  "starts": [
+    {
+      "start": 0,
+      "gamma": 0.06616952210371126,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective_gamma_terms": 49489.22159785415,
+      "gradient": -6.44671254573792e-08
+    },
+    {
+      "start": 1,
+      "gamma": 0.06616953150623867,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective_gamma_terms": 49489.221597854135,
+      "gradient": 1.3316196769141975e-06
+    },
+    {
+      "start": 2,
+      "gamma": 0.06616953421184851,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective_gamma_terms": 49489.22159785413,
+      "gradient": 1.7333470019864627e-06
+    },
+    {
+      "start": 3,
+      "gamma": 0.0661695231228423,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective_gamma_terms": 49489.221597854135,
+      "gradient": 8.685275521003177e-08
+    },
+    {
+      "start": 4,
+      "gamma": 0.06616952284154003,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective_gamma_terms": 49489.22159785413,
+      "gradient": 4.5086600050647796e-08
+    },
+    {
+      "start": 5,
+      "gamma": 0.0661695229819153,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective_gamma_terms": 49489.221597854135,
+      "gradient": 6.592907846048046e-08
+    },
+    {
+      "start": 6,
+      "gamma": 0.06616953478183879,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective_gamma_terms": 49489.221597854135,
+      "gradient": 1.8179798538242586e-06
+    },
+    {
+      "start": 7,
+      "gamma": 0.06616956592724031,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective_gamma_terms": 49489.221597854135,
+      "gradient": 6.4424427825698904e-06
+    }
+  ],
+  "cell_order": 4,
+  "base_point_sha256": "12f247c7e86550f0105c8d7a3bd721aa8b2fbd688b63184e915b4fd255f33b3b",
+  "nine_ETAS_fixed": true,
+  "active_gamma_bound": false
+}

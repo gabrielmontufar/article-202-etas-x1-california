@@ -1,0 +1,3 @@
+# Observed locally on 2026-10-25; not retroactively certified for every historical stage.
+shapely==2.2.0
+pyshp==3.1.6

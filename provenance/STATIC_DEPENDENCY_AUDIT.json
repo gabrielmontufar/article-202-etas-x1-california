@@ -1,0 +1,91 @@
+{
+  "scope": "Static AST inspection only, not imports, installation or numerical execution",
+  "source_files": 27,
+  "syntax_parse": "PASS",
+  "external_imports": [
+    "numba",
+    "numpy",
+    "pyproj",
+    "scipy",
+    "shapefile",
+    "shapely"
+  ],
+  "ambiguous_local_imports": [],
+  "comment_language_candidates": [],
+  "additions": [
+    {
+      "source_root": "ART",
+      "relative": "amendment_R5/r5_q1_profile_v2.py",
+      "sha256": "e753c50e96df002073158c91412d963fea2e58921a7ca8e038ce833ad1962f23",
+      "bytes": 12349
+    },
+    {
+      "source_root": "ART",
+      "relative": "amendment_R5/r5_q1_profile_v3.py",
+      "sha256": "1f67098ac0cb1251a526f15143a9bdbb2da0b921c379baa44679c0689dbb5418",
+      "bytes": 12366
+    },
+    {
+      "source_root": "ART",
+      "relative": "amendment_P1A1_R3/r3_design.py",
+      "sha256": "cb450985e094b460934e0c33bce873422bec35d79d8472c48711a99cad0784d8",
+      "bytes": 14784
+    },
+    {
+      "source_root": "ART",
+      "relative": "amendment_P1A1_R4/validate_r4_power.py",
+      "sha256": "3b8e6e30f6873a73d15969b961153af2833cc4e79a4bc9164e68c3419746f072",
+      "bytes": 6331
+    },
+    {
+      "source_root": "ART",
+      "relative": "amendment_P1A1_R4/check_standard_target.py",
+      "sha256": "c31938c0983fb83bbd04a4d36f3fd7a3703c105805fde20c8d4ac280228247be",
+      "bytes": 8512
+    },
+    {
+      "source_root": "ART",
+      "relative": "scripts/run_preflight.py",
+      "sha256": "5ecdd57a772e8462417679dd6839c05c3458b03cdf07a9040c5b394112fcacc4",
+      "bytes": 2744
+    },
+    {
+      "source_root": "ART",
+      "relative": "amendment_P1A1/completeness_epoch.py",
+      "sha256": "f83901451e6e0358a57a6fe6ef9b528823f39b4dfdb5d48a9b828e30a8ca9bdf",
+      "bytes": 7434
+    },
+    {
+      "source_root": "ART",
+      "relative": "amendment_P1A1_R4/compare_source_catalogues.py",
+      "sha256": "d6c8ef4bb5be18bf9e7f0a6fdeb38ae326a4a75a97190899800a9384d7062dd7",
+      "bytes": 7673
+    },
+    {
+      "source_root": "ART",
+      "relative": "scripts/evaluation.py",
+      "sha256": "811ea2bc27800449f11a74c757c669cd6ac57d03079dd899b5cbaf4ee27190ab",
+      "bytes": 3563
+    },
+    {
+      "source_root": "ART",
+      "relative": "scripts/public_catalogue.py",
+      "sha256": "0ad2ad63abf5fe58fc227e9e7e0e6b8560eecafccec20dd251cb935bb6bd220a",
+      "bytes": 9253
+    },
+    {
+      "source_root": "ART",
+      "relative": "amendment_P1A1_R4/fetch_support.py",
+      "sha256": "01c4ddc24d0e6837d0ae52ccc66fa5dc424dc1891825a8ce5dd7da6d3497c35b",
+      "bytes": 1652
+    },
+    {
+      "source_root": "ART",
+      "relative": "scripts/seal_rfc3161.py",
+      "sha256": "b2ba0e5e0abaec08d14307179f6fc3ea550bf15eb60372ce423ed017983a023d",
+      "bytes": 3230
+    }
+  ],
+  "scientific_execution": false,
+  "remaining": "Historical absolute paths, dynamic input closure, frozen input access and an end-to-end runnable numerical example still require preparation and review."
+}

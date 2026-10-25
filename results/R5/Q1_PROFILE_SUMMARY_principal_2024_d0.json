@@ -1,0 +1,116 @@
+{
+ "epoch": "principal_2024",
+ "param": "d0",
+ "classification": "LIMITADO_POR_COTA",
+ "threshold_delta_nll": 1.921,
+ "profile": [
+  {
+   "value": 0.1,
+   "best_nll": 17826.42552700203,
+   "delta_nll": 125.81149005027692,
+   "status": "QA_PASS",
+   "best_start": "sobol_4",
+   "source": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w5_original_verified\\r5_q1\\out_v3_W5\\principal_2024\\d0\\point_0.1\\POINT_RESULT.json",
+   "point_result_sha256": "b3c67dd1055e0d8401ee07b4eb01775c4584f65f066b3319b812f74ae7a461e7",
+   "script_sha256": "1f67098ac0cb1251a526f15143a9bdbb2da0b921c379baa44679c0689dbb5418"
+  },
+  {
+   "value": 0.2,
+   "best_nll": 17726.584007221572,
+   "delta_nll": 25.969970269819896,
+   "status": "QA_PASS",
+   "best_start": "warm_reference",
+   "source": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w5_original_verified\\r5_q1\\out_v3_W5\\principal_2024\\d0\\point_0.2\\POINT_RESULT.json",
+   "point_result_sha256": "b986b466acdda17a4200425c58c7b160354719aa91071f5cba93a353cf291598",
+   "script_sha256": "1f67098ac0cb1251a526f15143a9bdbb2da0b921c379baa44679c0689dbb5418"
+  },
+  {
+   "value": 0.3,
+   "best_nll": 17700.614036951752,
+   "delta_nll": 0.0,
+   "status": "QA_PASS",
+   "best_start": "warm_reference",
+   "source": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w5_original_verified\\r5_q1\\out_v3_W5\\principal_2024\\d0\\point_0.3\\POINT_RESULT.json",
+   "point_result_sha256": "a6c8bc53e1bff7a7707a032cb9b9197916bd8fdf868d7d4176fa92762de3b0a0",
+   "script_sha256": "1f67098ac0cb1251a526f15143a9bdbb2da0b921c379baa44679c0689dbb5418"
+  },
+  {
+   "value": 0.5,
+   "best_nll": 17709.692314385506,
+   "delta_nll": 9.078277433753101,
+   "status": "QA_PASS",
+   "best_start": "sobol_1",
+   "source": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w5_original_verified\\r5_q1\\out_v3_W5\\principal_2024\\d0\\point_0.5\\POINT_RESULT.json",
+   "point_result_sha256": "447c67ac68574a355237d4e633492349862cdf6aa605b72fd588ce501d49d9ff",
+   "script_sha256": "1f67098ac0cb1251a526f15143a9bdbb2da0b921c379baa44679c0689dbb5418"
+  },
+  {
+   "value": 0.75,
+   "best_nll": 17748.539318803516,
+   "delta_nll": 47.92528185176343,
+   "status": "QA_PASS",
+   "best_start": "sobol_7",
+   "source": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w6_20261023\\w6_original_verified\\r5_q1\\out_v3_W6\\principal_2024\\d0\\point_0.75\\POINT_RESULT.json",
+   "point_result_sha256": "74d411df391df068e31f8af8548698086b0a7443d808cc4b691c74384d798802",
+   "script_sha256": "1f67098ac0cb1251a526f15143a9bdbb2da0b921c379baa44679c0689dbb5418"
+  },
+  {
+   "value": 1.0,
+   "best_nll": 17797.953854728028,
+   "delta_nll": 97.3398177762756,
+   "status": "QA_PASS",
+   "best_start": "sobol_1",
+   "source": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w6_20261023\\w6_original_verified\\r5_q1\\out_v3_W6\\principal_2024\\d0\\point_1\\POINT_RESULT.json",
+   "point_result_sha256": "91815e0b84d9f45b27179c416a7973931d74c9297ed4bf666f5abdc043600683",
+   "script_sha256": "1f67098ac0cb1251a526f15143a9bdbb2da0b921c379baa44679c0689dbb5418"
+  },
+  {
+   "value": 2.0,
+   "best_nll": 18157.794177204127,
+   "delta_nll": 457.18014025237426,
+   "status": "QA_PASS",
+   "best_start": "warm_reference",
+   "source": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w6_20261023\\w6_original_verified\\r5_q1\\out_v3_W6\\principal_2024\\d0\\point_2\\POINT_RESULT.json",
+   "point_result_sha256": "62e153d7043abdc67645527d6eacd1094ecaa1a9739bd7568d2e03f6627d05d0",
+   "script_sha256": "1f67098ac0cb1251a526f15143a9bdbb2da0b921c379baa44679c0689dbb5418"
+  }
+ ],
+ "failed_or_missing_points": [],
+ "numerically_unreliable_points": [],
+ "blocked_points_duplicates_or_failed_copies": [],
+ "duplicates": {
+  "0.5": {
+   "n": 2,
+   "copies": [
+    {
+     "source": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w4_w5_20261023\\w5_original_verified\\r5_q1\\out_v3_W5\\principal_2024\\d0\\point_0.5\\POINT_RESULT.json",
+     "sha256": "447c67ac68574a355237d4e633492349862cdf6aa605b72fd588ce501d49d9ff",
+     "script": "v3",
+     "status": "QA_PASS",
+     "best_nll": 17709.692314385506
+    },
+    {
+     "source": "C:\\Users\\gjm31\\Documents\\Codex\\article202_panama_probabilistic_20261020\\amendment_R5\\intake_w6_20261023\\w6_original_verified\\r5_q1\\out_v3_W6\\principal_2024\\d0\\point_0.5\\POINT_RESULT.json",
+     "sha256": "cb6dbdeef730bd7295edad78412d54d9d6c4e2c795e072f9f8ddadb3a5920879",
+     "script": "v3",
+     "status": "QA_PASS",
+     "best_nll": 17709.692314385506
+    }
+   ],
+   "nll_spread": 0.0,
+   "agree": true
+  }
+ },
+ "profile_set_95": [
+  0.3
+ ],
+ "argmin": 0.3,
+ "original_bounds": [
+  0.5,
+  50.0
+ ],
+ "merge_script_sha256": "75f793751f9ffaa5a02d052ac3076a9d2a820a771ac2d49425f7606800132b50",
+ "forecasts_issued": 0,
+ "Q2_scored": false,
+ "utc": "2026-10-23T16:18:55.892888+00:00"
+}
